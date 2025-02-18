@@ -1,4 +1,4 @@
-(pcb "/home/libertad/Desktop/repos/din-rail-circuits/MODBUS_RTU_MIRROR/88x37x59mm/side/esp32/modbus_rtu_mirror_side_88x37x59mm.dsn"
+(pcb "/home/libertad/Desktop/repos/din-rail-circuits/MODBUS_RTU_MIRROR/88x37x59mm/side/esp32/modbus_rtu_mirror_side_esp32_88x37x59mm.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -30,24 +30,24 @@
             110871 -119126))
     (wire_keepout "" (polygon F.Cu 0  110871 -117856  110871 -118110  109220 -118110  109220 -117856
             110871 -117856))
-    (wire_keepout "" (polygon F.Cu 0  118999 -119126  118999 -119380  117348 -119380  117348 -119126
-            118999 -119126))
+    (wire_keepout "" (polygon F.Cu 0  119634 -119126  119634 -119380  117983 -119380  117983 -119126
+            119634 -119126))
     (wire_keepout "" (polygon F.Cu 0  105918 -116586  105918 -116840  104267 -116840  104267 -116586
             105918 -116586))
     (wire_keepout "" (polygon F.Cu 0  110871 -116586  110871 -116840  109220 -116840  109220 -116586
             110871 -116586))
-    (wire_keepout "" (polygon F.Cu 0  118999 -117856  118999 -118110  117348 -118110  117348 -117856
-            118999 -117856))
-    (wire_keepout "" (polygon F.Cu 0  118999 -116586  118999 -116840  117348 -116840  117348 -116586
-            118999 -116586))
-    (wire_keepout "" (polygon F.Cu 0  114046 -117856  114046 -118110  112395 -118110  112395 -117856
-            114046 -117856))
-    (wire_keepout "" (polygon F.Cu 0  114046 -116586  114046 -116840  112395 -116840  112395 -116586
-            114046 -116586))
+    (wire_keepout "" (polygon F.Cu 0  119761 -117856  119761 -118110  118110 -118110  118110 -117856
+            119761 -117856))
+    (wire_keepout "" (polygon F.Cu 0  119761 -116586  119761 -116840  118110 -116840  118110 -116586
+            119761 -116586))
+    (wire_keepout "" (polygon F.Cu 0  114808 -117856  114808 -118110  113157 -118110  113157 -117856
+            114808 -117856))
+    (wire_keepout "" (polygon F.Cu 0  114808 -116586  114808 -116840  113157 -116840  113157 -116586
+            114808 -116586))
     (wire_keepout "" (polygon F.Cu 0  105918 -119126  105918 -119380  104267 -119380  104267 -119126
             105918 -119126))
-    (wire_keepout "" (polygon F.Cu 0  113919 -119126  113919 -119380  112268 -119380  112268 -119126
-            113919 -119126))
+    (wire_keepout "" (polygon F.Cu 0  114681 -119126  114681 -119380  113030 -119380  113030 -119126
+            114681 -119126))
     (wire_keepout "" (polygon F.Cu 0  105918 -117856  105918 -118110  104267 -118110  104267 -117856
             105918 -117856))
     (via "Via[0-1]_800:400_um")
@@ -63,13 +63,13 @@
       (place R10 104267.000000 -138684.000000 front 0.000000 (PN NONE))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::1
-      (place R4 139319.000000 -130810.000000 front 90.000000 (PN 1k))
+      (place R4 139319.000000 -131064.000000 front 90.000000 (PN 1k))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::2
       (place R11 105283.000000 -111125.000000 front 0.000000 (PN 10k))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
-      (place C9 109220.000000 -113284.000000 front 0.000000 (PN 100nF))
+      (place C9 123570.000000 -113157.000000 front 0.000000 (PN 100nF))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::1
       (place C6 111125.000000 -123698.000000 front 0.000000 (PN 100nF))
@@ -87,22 +87,22 @@
       (place U5 107569.000000 -117983.000000 front 0.000000 (PN FM24C64C))
     )
     (component Battery_rtc:CR2032_Vertical_CircularHoles
-      (place BT1 118237.000000 -112875.000000 front 180.000000 (PN Battery_Cell))
+      (place BT1 114681.000000 -112875.000000 front 180.000000 (PN Battery_Cell))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::4
-      (place R12 109220.000000 -111125.000000 front 0.000000 (PN 4.7k))
+      (place R12 123570.000000 -111125.000000 front 0.000000 (PN 4.7k))
     )
     (component LED_THT_horizontal_holder:LED_D3.0mm_4.5x9.5mm::1
       (place D1 141663.000000 -105800.000000 front 180.000000 (PN LED))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::5
-      (place R2 144526.000000 -130810.000000 front 90.000000 (PN 1k))
+      (place R2 144526.000000 -131064.000000 front 90.000000 (PN 1k))
     )
     (component LED_THT_horizontal_holder:LED_D3.0mm_4.5x9.5mm::2
       (place D3 131463.000000 -105800.000000 front 180.000000 (PN LED))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::6
-      (place R3 141986.000000 -130810.000000 front 90.000000 (PN 1k))
+      (place R3 141986.000000 -131064.000000 front 90.000000 (PN 1k))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::7
       (place R6 128143.000000 -129921.000000 front 0.000000 (PN 1k))
@@ -137,6 +137,9 @@
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::5
       (place C4 110109.000000 -127635.000000 front -90.000000 (PN 100nF))
     )
+    (component Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical
+      (place J6 144526.000000 -128016.000000 front -90.000000 (PN Conn_01x02_Male))
+    )
     (component "RF_Module:ESP32-WROOM-32"
       (place U1 136017.000000 -117094.000000 front -90.000000 (PN "ESP32-WROOM-32"))
     )
@@ -150,10 +153,10 @@
       (place R9 104251.000000 -136271.000000 front 180.000000 (PN 0))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::11
-      (place R13 109220.000000 -109093.000000 front 0.000000 (PN 4.7k))
+      (place R13 123570.000000 -109093.000000 front 0.000000 (PN 4.7k))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
-      (place U4 115570.000000 -117983.000000 front 0.000000 (PN DS3231MZ))
+      (place U4 116332.000000 -117983.000000 front 0.000000 (PN DS3231MZ))
     )
     (component LED_THT_horizontal_holder:LED_D3.0mm_4.5x9.5mm::4
       (place D6 116163.000000 -105800.000000 front 180.000000 (PN LED))
@@ -177,7 +180,7 @@
       (place C7 105252.500000 -113157.000000 front 0.000000 (PN 100nF))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::12
-      (place R5 136779.000000 -130810.000000 front 90.000000 (PN 1k))
+      (place R5 136779.000000 -131064.000000 front 90.000000 (PN 1k))
     )
     (component "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
       (place REF** 148590.000000 -136271.000000 back 0.000000 (PN "OSHW-Symbol_6.7x6mm_SilkScreen"))
@@ -682,6 +685,27 @@
       (outline (path signal 100  -1000 625  1000 625))
       (pin RoundRect[T]Pad_1175x1450_250.951_um_0.000000_0 1 -1037.5 0)
       (pin RoundRect[T]Pad_1175x1450_250.951_um_0.000000_0 2 1037.5 0)
+    )
+    (image Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical
+      (outline (path signal 120  -695 685  0 685))
+      (outline (path signal 120  608.276 -685  695 -685))
+      (outline (path signal 120  -695 0  -695 685))
+      (outline (path signal 120  -695 -685  -608.276 -685))
+      (outline (path signal 120  -695 -685  -695 -1560))
+      (outline (path signal 120  394.493 -1560  695 -1560))
+      (outline (path signal 120  695 -685  695 -1560))
+      (outline (path signal 120  -695 -1560  -394.493 -1560))
+      (outline (path signal 50  1150 1000  -1150 1000))
+      (outline (path signal 50  -1150 1000  -1150 -2000))
+      (outline (path signal 50  -1150 -2000  1150 -2000))
+      (outline (path signal 50  1150 -2000  1150 1000))
+      (outline (path signal 100  -635 -1500  -635 182.5))
+      (outline (path signal 100  635 -1500  -635 -1500))
+      (outline (path signal 100  -635 182.5  -317.5 500))
+      (outline (path signal 100  -317.5 500  635 500))
+      (outline (path signal 100  635 500  635 -1500))
+      (pin Rect[A]Pad_850x850_um 1 0 0)
+      (pin Oval[A]Pad_850x850_um 2 0 -1000)
     )
     (image "RF_Module:ESP32-WROOM-32"
       (outline (path signal 120  -9120 9445  -9500 9445))
@@ -1193,18 +1217,18 @@
       (pins U2-17 J1-1)
     )
     (net GND
-      (pins C9-2 C6-2 C8-2 U5-1 U5-2 U5-3 U5-4 U5-7 BT1-2 R2-1 R3-1 J3-1 U2-11 C2-2
-        C1-2 C4-2 U1-1 U1-15 U1-38 U1-39 U1-39@1 U1-39@2 U1-39@3 U1-39@4 U1-39@5 U1-39@6
-        U1-39@7 U1-39@8 U1-39@9 U1-39@10 U1-39@11 U1-39@12 U1-39@13 U1-39@14 U1-39@15
-        U1-39@16 U1-39@17 U1-39@18 U1-39@19 U1-39@20 U1-39@21 C5-2 R9-2 U4-5 SW1-2
-        U3-1 J2-2 C3-2 C7-2)
+      (pins C9-2 C6-2 C8-2 U5-1 U5-2 U5-3 U5-4 U5-7 BT1-2 R2-1 R3-1 J3-1 J5-3 J5-4
+        U2-11 C2-2 C1-2 C4-2 J6-1 J6-2 U1-1 U1-15 U1-38 U1-39 U1-39@1 U1-39@2 U1-39@3
+        U1-39@4 U1-39@5 U1-39@6 U1-39@7 U1-39@8 U1-39@9 U1-39@10 U1-39@11 U1-39@12
+        U1-39@13 U1-39@14 U1-39@15 U1-39@16 U1-39@17 U1-39@18 U1-39@19 U1-39@20 U1-39@21
+        C5-2 R9-2 U4-5 SW1-2 U3-1 J2-2 C3-2 C7-2)
     )
     (net +3.3V
-      (pins R11-1 C9-1 C6-1 C8-1 U5-8 R12-1 D1-2 D3-2 J3-4 R8-1 U2-2 R1-1 D4-2 C4-1
-        U1-2 R13-1 U4-2 D6-2 U3-2 U3-2@1 C3-1 D5-2)
+      (pins R11-1 C9-1 C6-1 C8-1 U5-8 R12-1 D1-2 D3-2 J3-4 R8-1 J5-2 U2-2 R1-1 D4-2
+        C4-1 U1-2 R13-1 U4-2 D6-2 U3-2 U3-2@1 C3-1 D5-2)
     )
     (net +5V
-      (pins U2-19 C2-1 C1-1 C5-1 U3-3 J2-1)
+      (pins J5-1 U2-19 C2-1 C1-1 C5-1 U3-3 J2-1)
     )
     (net "unconnected-(U4-Pad1)"
       (pins U4-1)
@@ -1319,18 +1343,6 @@
     )
     (net /ESP_IO22
       (pins J5-7 U1-36)
-    )
-    (net "unconnected-(J5-Pad1)"
-      (pins J5-1)
-    )
-    (net "unconnected-(J5-Pad2)"
-      (pins J5-2)
-    )
-    (net "unconnected-(J5-Pad3)"
-      (pins J5-3)
-    )
-    (net "unconnected-(J5-Pad4)"
-      (pins J5-4)
     )
     (net /ESP_IO25
       (pins J5-6 U1-10)

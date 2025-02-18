@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "modbus_rtu_mirror_side_88x37x59mm.kicad_pro",
+    "filename": "modbus_rtu_mirror_side_esp32_88x37x59mm.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -366,7 +366,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "modbus_rtu_mirror_side_88x37x59mm.dsn",
+      "specctra_dsn": "modbus_rtu_mirror_side_esp32_88x37x59mm.dsn",
       "step": "",
       "vrml": ""
     },
